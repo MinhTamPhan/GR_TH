@@ -1,0 +1,118 @@
+<RunSet version="SOGrader 4.59.8">
+  <Run name="test1" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="9&#xA;0 1 1 0 1 0 1 0 0&#xA;1 0 1 0 0 0 0 0 0&#xA;1 1 0 1 0 0 0 0 0&#xA;0 0 1 0 1 1 0 0 0&#xA;1 0 0 1 0 1 1 0 0&#xA;0 0 0 1 1 0 1 0 0&#xA;1 0 0 0 1 1 0 0 0&#xA;0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="3&#xA;0	1	2	3	4	5	6	&#xA;7	&#xA;8	" />
+      <Answer name="New Answer" answer="3&#xA;7	&#xA;8&#xA;0	1	2	3	4	5	6	&#xA;" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="b input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test2" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="9&#xA;0 1 1 0 1 0 1 0 0&#xA;1 0 1 0 0 0 0 0 0&#xA;1 1 0 1 0 0 0 0 0&#xA;0 0 1 0 1 1 0 0 0&#xA;1 0 0 1 0 1 1 0 0&#xA;0 0 0 1 1 0 1 0 0&#xA;1 0 0 0 1 1 0 0 0&#xA;0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="3&#xA;0	1	2	3	4	5	6	&#xA;7	&#xA;8	" />
+      <Answer name="New Answer" answer="3&#xA;7	&#xA;8&#xA;0	1	2	3	4	5	6	&#xA;&#xA;" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="d input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test3" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="7&#xA;0 1 0 0 1 0 0&#xA;1 0 0 1 1 1 1&#xA;0 0 0 1 0 0 1&#xA;0 1 1 0 0 1 1&#xA;1 1 0 0 0 0 0&#xA;0 1 0 1 0 0 0&#xA;0 1 1 1 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="1&#xA;0	1	2	3	4	5	6" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="b input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test4" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="7&#xA;0 1 0 0 1 0 0&#xA;1 0 0 1 1 1 1&#xA;0 0 0 1 0 0 1&#xA;0 1 1 0 0 1 1&#xA;1 1 0 0 0 0 0&#xA;0 1 0 1 0 0 0&#xA;0 1 1 1 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="1&#xA;0	1	2	3	4	5	6" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="d  input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test 5" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="7&#xA;0 1 0 0 1 0 0&#xA;1 0 0 0 1 0 0&#xA;0 0 0 1 0 0 1&#xA;0 0 1 0 0 1 1&#xA;1 1 0 0 0 0 0&#xA;0 0 0 1 0 0 0&#xA;0 0 1 1 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="2&#xA;0	1	4&#xA;2	3	5	6" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="b input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test 6" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="7&#xA;0 1 0 0 1 0 0&#xA;1 0 0 0 1 0 0&#xA;0 0 0 1 0 0 1&#xA;0 0 1 0 0 1 1&#xA;1 1 0 0 0 0 0&#xA;0 0 0 1 0 0 0&#xA;0 0 1 1 0 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="2&#xA;0	1	4&#xA;2	3	5	6" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="d input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test 7" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="25&#xA;0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1&#xA;1 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0&#xA;1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 1&#xA;0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0&#xA;0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1&#xA;0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 1 0 1&#xA;1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0&#xA;1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 1&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0&#xA;0 1 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1 0 1 0 0 0 0 1&#xA;1 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0&#xA;0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="4&#xA;0	2	4	5	8	13	18	23	&#xA;1	6	7	11	12	17	19	22	24	&#xA;3	10	15	16	&#xA;9	14	20	21	" />
+      <Answer name="New Answer" answer="4&#xA;3	10	15	16	&#xA;9	14	20	21	&#xA;0	2	4	5	8	13	18	23	&#xA;1	6	7	11	12	17	19	22	24	&#xA;" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="b input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_lien_thong\1542201\1542201\ConsoleApplication1\Debug\ConsoleApplication1.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+  <Run name="test 8" comment="Basic Test: &#xA;-------------------------------------------&#xA;Input: ($ExeDir)\input.txt&#xA;------------------------------------------&#xA;Ouput: File: ($ExeDir)\($MSSV).txt|output.txt&#xA;------------------------------------------&#xA;One answer&#xA;------------------------------------------&#xA;Student's execution without arguments&#xA;------------------------------------------&#xA;Tester: Default">
+    <input inputFile="True" filename="input.txt" content="25&#xA;0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1&#xA;1 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0&#xA;1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 1&#xA;0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0&#xA;0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1&#xA;0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 1 0 1&#xA;1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0&#xA;1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0&#xA;0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 1&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0&#xA;0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0&#xA;0 1 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1 0 1 0 0 0 0 1&#xA;1 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0&#xA;0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0" folder="($ExeDir)" />
+    <output onScreen="False" folder="($ExeDir)">
+      <Filename value="($MSSV).txt" />
+      <Filename value="output.txt" />
+    </output>
+    <Answers>
+      <Answer name="Teacher's Answer" answer="4&#xA;0	2	4	5	8	13	18	23	&#xA;1	6	7	11	12	17	19	22	24	&#xA;3	10	15	16	&#xA;9	14	20	21	" />
+      <Answer name="New Answer" answer="4&#xA;3	10	15	16	&#xA;9	14	20	21	&#xA;0	2	4	5	8	13	18	23	&#xA;1	6	7	11	12	17	19	22	24	&#xA;&#xA;" />
+    </Answers>
+    <StudentExecutors>
+      <Slave name="Run1" arguments="d input.txt output.txt" exeFullFilename="e:\CHAM_BAI\BTLen_LTDT\unzip_to_mau\1542259\1542259\1542259\Debug\so1542259.exe" waitingTime="5" />
+    </StudentExecutors>
+    <Tester name="" default="True" />
+  </Run>
+</RunSet>
